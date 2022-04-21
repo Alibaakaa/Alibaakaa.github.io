@@ -1,0 +1,86 @@
+body{
+  background-color: #E5DCF9;
+  margin: 30px;
+  padding-right: 24%;
+  padding-left: 24%;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: #A25ED8;
+  text-decoration: underline #D5A6FF;
+  margin-right: auto;
+  align-self: center;
+}
+
+.page-header{
+  display: grid;
+  grid-template-areas: "back caption home";
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  grid-column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.back{
+  grid-area: back;
+}
+
+.caption{
+  grid-area: caption;
+}
+
+.home{
+  grid-area: home;
+  margin-top: 12px;
+}
+
+li{
+  list-style-type: none;
+  padding: 0;
+}
+
+.frame-2{
+  float: right;
+}
+
+.flower-7{
+  float: right;
+}
+
+.frame-1{
+  float: left;
+}
+
+.content1{
+  display: grid;
+  grid-template-areas: "plenum definition"
+                       "myplenum definition";
+  grid-template-columns: 160px auto;
+  justify-content: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+.plenum{
+  grid-area: plenum;
+}
+
+.myplenum{
+  grid-area: myplenum;
+}
+
+.definition{
+  grid-area: definition;
+  border: 3px solid #A563DA;
+}
+
+article{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
